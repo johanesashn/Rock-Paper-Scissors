@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="score">
+        <div class="user-score">
+            <h5>YOU</h5>
+            <div class="user-total">
+                <h5>-</h5>
+            </div>
+        </div>
+        <div class="computer-score">
+            <h5>COMPUTER</h5>
+            <div class="computer-total">
+                <h5>-</h5>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="container">
+        <h1>ROCK PAPER SCISSORS</h1>
+        <div class="computer">
+            <img src="img/rock.png" alt="">
+        </div>
+        <div class="info">
+            <h2 id="info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-square-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z"/>
+                </svg>
+                CHOOSE 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-square-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z"/>
+                </svg>
+            </h2>
+        </div>
+        <div class="user">
+            <ul>
+                <li>
+                    <img src="img/rock.png" alt="" class="rock">
+                </li>
+                <li>
+                    <img src="img/paper.png" alt="" class="paper">
+                </li>
+                <li>
+                    <img src="img/scissors.png" alt="" class="scissors">
+                </li>
+            </ul>
+
+        </div>
+        <div class="refresh">
+            <h5>Refresh</h4>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
