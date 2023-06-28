@@ -177,4 +177,8 @@ button {
         height: 500px;
         justify-content: space-around;
     }
+
+    .computer-hand {
+        align-self: flex-end;
+    }
 }
